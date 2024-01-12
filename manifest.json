@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Dark Mode for Messenger",
+    "version": "1.0",
+    "permissions": [
+      "activeTab"
+    ],
+    "content_scripts": [
+      {
+        "matches": ["*://*.messenger.com/*"],
+        "js": ["darkmode.js"]
+      }
+    ],
+    "icons": {
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+      },
+      "description": "Dark mode for messanger"
+  }
+  
